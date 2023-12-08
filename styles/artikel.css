@@ -1,0 +1,101 @@
+#artikel {
+    padding: 50px 20px 20px 20px;
+}
+
+.list-artikel {
+    padding-right: 20px;
+}
+
+.artikel-item {
+    border-bottom: 1px solid #eee;
+}
+
+.artikel-item div img {
+    width: 100%;
+}
+
+.artikel-item a {
+    font-style: italic;
+}
+
+.artikel-item div p {
+    font-size: 1em;
+}
+
+.artikel-populer {
+    border: 1px solid #eee;
+    padding: 0;
+}
+
+.artikel-populer .head {
+    background-color: black;
+    color: white;
+}
+
+.artikel-populer .head h5 {
+    padding: 10px;
+    margin: 0;
+}
+
+.artikel-populer ul {
+    padding: 0 10px;
+}
+
+.artikel-populer li {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.artikel-populer li a {
+    color: black;
+    font-style: italic;
+}
+
+.artikel-populer li a span {
+    font-size: .8em;
+}
+
+.pagination-div {
+    text-align: center;
+}
+
+.pagination li.active {
+    background-color: #1d98fd;
+}
+
+@media only screen and (max-width: 800px) {
+    #artikel {
+        padding: 12px 3px;
+    }
+
+    .artikel-header {
+        text-align: center;
+    }
+
+    .artikel-item h5 {
+        margin: 0;
+        margin-bottom: 6px;
+        font-size: 1.5rem;
+    }
+
+    .artikel-item div p {
+        font-size: .9em;
+    }
+
+    .deskripsi-singkat + a {
+        display: none;
+    }
+
+    .artikel-item span {
+        font-size: .8rem;
+    }
+
+    #page-header .header-overlay {
+        padding: 20px 10px;
+    }
+
+    #page-header .header-overlay .header-content h1 {
+        font-size: 2.5em;
+        margin-top: 80px;
+    }
+}
