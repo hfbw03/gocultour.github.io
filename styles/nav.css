@@ -1,0 +1,79 @@
+nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding-right: 15px;
+    padding-left: 30px;
+    background-color: transparent;
+    box-shadow: none;
+    transition: background-color 1s, font-size 1s, line-height 1s, padding 1s;
+}
+
+nav ul li a {
+    font-size: 18px;
+    transition: font-size 1s, line-height 1s, padding 1s;
+}
+
+nav .dropdown-trigger > i {
+    transition: line-height 1s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #1d98fd;
+    background-color: transparent;
+}
+
+.brand-logo {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+}
+
+.color-text-brand {
+    color: #a800a8;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.sticky {
+    background-color: black;
+    padding-left: 15px;
+    height: 50px;
+}
+
+nav.sticky a {
+    font-size: 1.8em;
+    line-height: 50px;
+}
+
+nav.sticky ul li a {
+    font-size: 1em;
+    line-height: 50px;
+}
+
+nav.sticky .dropdown-trigger > li > a > i {
+    line-height: 1;
+}
+
+.dropdown-content {
+    overflow: hidden;
+}
+
+.dropdown-content > li > a {
+    color: black;
+}
+
+nav.sticky .dropdown-trigger > i {
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 420px) {
+    nav a.brand-logo {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav a.brand-logo {
+        font-size: 1.4em;
+    }
+}
