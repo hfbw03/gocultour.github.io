@@ -25,6 +25,20 @@ section {
     font-weight: 200;
 }
 
+#deskripsi-lanjut-artikel {
+    padding: 0 150px;
+}
+
+#deskripsi-lanjut-artikel > p {
+    font-size: 1.2em;
+    font-weight: 150;
+}
+
+#deskripsi-lanjut-artikel > h3 {
+    font-size: 1.2em;
+    font-weight: 150;
+}
+
 #galeri-terkait {
     padding: 20px 0;
     background-color: #f4f4f4;
